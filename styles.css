@@ -1,14 +1,17 @@
-.holder{
-	display:grid;
-	grid-template-columns:repeat(2, 100px;)
-	grid-template-rows:repeat(2, 100px);
+/* Style for the grid container */
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
+    width: 200px;
+    height: 200px;
 	gap:10px;
-	
 }
-.item{
-	background-color:red;
-	/* border:1px solid black; */
-	padding:20px;
-	text-align:center;
-	
+
+/* Style for the grid items */
+.item {
+    border: 1px solid #000;  /* Optional: to visually distinguish items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
