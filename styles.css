@@ -10,7 +10,7 @@
 
 /* Style for the grid items */
 .item {
-    border: 1px solid #000;  /* Optional: to visually distinguish items */
+    /* border: 1px solid #000;  /* Optional: to visually distinguish items */ */
     display: flex;
     justify-content: center;
     align-items: center;
