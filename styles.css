@@ -1,13 +1,13 @@
 .holder{
 	display:grid;
-	grid-template-columns:repeat(2,200px;)
-	grid-template-rows:repeat(2,200px);
+	grid-template-columns:repeat(2, 200px;)
+	grid-template-rows:repeat(2, 200px);
 	gap:10px;
 	
 }
 .item{
 	background-color:red;
-	border:1px solid black;
+	/* border:1px solid black; */
 	padding:20px;
 	text-align:center;
 	
