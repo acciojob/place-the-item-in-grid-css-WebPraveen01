@@ -3,8 +3,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
     grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 	gap:10px;
 }
 
